@@ -1,0 +1,29 @@
+h1 {
+    color: purple;
+    font-style: italic;
+    outline-style: solid;
+    outline-color: lightpink;
+    width: fit-content;
+}
+
+body {
+    font: size 50px;
+    font-style: oblique;
+    color:black;
+}
+
+.completedList {
+    text-decoration: line-through;
+    color:rgb(10, 78, 4);
+    width: fit-content;
+}
+
+.trashBtn {
+
+    color:red;
+    font-size:24px;
+    text-decoration: none;
+
+}
+
+
