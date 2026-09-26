@@ -7,8 +7,12 @@ const completedList = document.querySelector(".completedList")
 const numberCompleted = document.querySelector("#numberCompleted")
 let completedToDo = 0;
 
-// Funktion som lägger till items i toDoList
+// Knapp som lägger till items i toDoList
 addBtn.addEventListener("click", function(){
+    if (inputList.value === "") {
+        alert("Måste skriva något!");
+        return;
+    }
 
 let itemObject = {
 text: inputList.value,
